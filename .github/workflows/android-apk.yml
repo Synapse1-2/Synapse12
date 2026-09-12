@@ -12,8 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -o Synapse12-Android-v4-BackButton.zip -d android-project
-
+        run: unzip -o Synapse12-Android-v5-Premium.zip -d android-project
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
