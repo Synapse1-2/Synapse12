@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -o Synapse12-Android-v5-REMOTE-FINAL.zip -d android-project
+        run: unzip -o Synapse12-Live-V5-FINAL-OPEN-FIX.zip -d android-project
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
